@@ -1,0 +1,21 @@
+[submodule "kitty"]
+	path = kitty
+	url = git@github.com:to23mas/.dot-kitty.git
+[submodule "conky"]
+	path = conky
+	url = git@github.com:to23mas/.conky.git
+[submodule "fish"]
+	path = fish
+	url = git@github.com:to23mas/.fish.git
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:to23mas/.nvim
+[submodule "scripts"]
+	path = scripts
+	url = git@github.com:to23mas/.scripts
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:to23mas/.tmux
+[submodule "aliases"]
+	path = aliases
+	url = git@github.com:to23mas/.aliases
