@@ -1,0 +1,17 @@
+# /home/micka/.config/tmuxinator/web.yml
+
+name: web
+root: ~/Documents/logmanager/web/
+
+
+windows:
+  - oscar:
+      layout: main-vertical
+      panes:
+        - cd web/oscar ; nvim .
+        - cd web/oscar ; lg
+  - api:
+      layout: main-vertical
+      panes:
+        - cd web-api; nvim .
+        - cd web-api; lg
