@@ -1,0 +1,11 @@
+# /home/micka/.config/tmuxinator/oscar.yml
+
+name: oscar
+root: ~/Documents/logmanager/web/web/oscar
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - nvim .
+        - lg

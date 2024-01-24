@@ -1,0 +1,11 @@
+# /home/micka/.config/tmuxinator/web-api.yml
+
+name: web-api
+root: ~/Documents/logmanager/web/web-api
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - nvim .
+        - lg
