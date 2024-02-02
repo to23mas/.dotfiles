@@ -70,3 +70,5 @@ freerdp/known_hosts2
 autostart
 user-dirs.dirs
 user-dirs.locale
+
+htop
