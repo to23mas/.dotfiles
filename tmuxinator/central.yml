@@ -1,4 +1,6 @@
-name: centralx
+# /home/micka/.config/tmuxinator/centralx.yml
+
+name: central
 root: ~/Documents/logmanager/web/central-plexus
 
 windows:
