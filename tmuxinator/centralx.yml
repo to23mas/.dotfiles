@@ -1,7 +1,8 @@
 # /home/micka/.config/tmuxinator/centralx.yml
 
-name: centralx
+name: central
 root: ~/Documents/logmanager/web/central-plexus
+
 windows:
   - editor:
       layout: main-vertical
