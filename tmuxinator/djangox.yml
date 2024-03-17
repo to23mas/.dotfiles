@@ -1,7 +1,7 @@
 # /home/soleus/.config/tmuxinator/djangox.yml
 
 name: djangox
-root: ~/Documents/master/django
+root: ~/Documents/School/master/django
 
 # Optional tmux socket
 # socket_name: foo
@@ -47,9 +47,14 @@ root: ~/Documents/master/django
 windows:
   - editor:
       layout: main-vertical
-      # Synchronize all panes of this window, can be enabled before or after the pane commands run.
-      # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
-      # synchronize: after
       panes:
         - nvim .
-        - f
+        - lg ; f
+  - server:
+      layout: main-vertical
+      panes:
+        - docker compose up
+        - make assets
+        - source ./venv/bin/activate.fish
+
+
