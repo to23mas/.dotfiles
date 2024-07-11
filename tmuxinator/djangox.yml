@@ -13,7 +13,7 @@ windows:
       layout: main-vertical
       panes:
         - docker compose up
-        - make assets
+        - make assets ; nvim TODO.md
         - source ./venv/bin/activate.fish
 
 
