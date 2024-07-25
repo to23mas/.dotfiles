@@ -10,4 +10,4 @@ windows:
         - nvim .
         - lg
   - server:
-        - drm; dcud
+        - 

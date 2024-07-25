@@ -1,0 +1,21 @@
+# /home/micka/.config/tmuxinator/vmx.yml
+
+name: vmx
+root: ~/Documents/logmanager/web/
+
+windows:
+  - oscar:
+      layout: main-vertical
+      panes:
+        - cd web/oscar ; nvim .
+        - cd web/oscar ; drm ; make up
+  - api:
+      layout: main-vertical
+      panes:
+        - cd web-api; nvim .
+        - cd web-api; lg
+  - api:
+      layout: main-vertical
+      panes:
+        - cd web-client; nvim .
+        - cd web-client; lg
