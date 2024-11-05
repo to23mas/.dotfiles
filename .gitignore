@@ -72,3 +72,4 @@ user-dirs.dirs
 user-dirs.locale
 
 htop
+go/telemetry/local

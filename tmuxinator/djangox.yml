@@ -5,7 +5,7 @@ root: ~/Documents/School/master/django
 
 windows:
   - editor:
-      layout: main-vertical
+      layout: main-horizontal
       panes:
         - source ./venv/bin/activate.fish ; nvim .
         - lg ; f
