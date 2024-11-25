@@ -1,0 +1,8 @@
+# /home/micka/.config/tmuxinator/gustavx.yml
+
+name: gustavx
+root: ~/
+
+windows:
+  - editor: nvim .
+  - git: lg
