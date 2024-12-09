@@ -15,19 +15,19 @@ config.keys = {
 		key = "l",
 		mods = "CTRL|SHIFT",
 		action = wezterm.action.DisableDefaultAssignment,
-	},{
-		key = "e",
-		mods = "CTRL|SHIFT",
-		action = wezterm.action.DisableDefaultAssignment,
-	},{
-		key = "Space",
-		mods = "CTRL|SHIFT",
-		action = wezterm.action.DisableDefaultAssignment,
-	},{
-		key = "Space",
-		mods = "CTRL",
-		action = wezterm.action.DisableDefaultAssignment,
-	},
+	}, {
+	key = "e",
+	mods = "CTRL|SHIFT",
+	action = wezterm.action.DisableDefaultAssignment,
+}, {
+	key = "Space",
+	mods = "CTRL|SHIFT",
+	action = wezterm.action.DisableDefaultAssignment,
+}, {
+	key = "Space",
+	mods = "CTRL",
+	action = wezterm.action.DisableDefaultAssignment,
+},
 }
 
 return config

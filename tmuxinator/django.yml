@@ -1,6 +1,6 @@
-# /home/soleus/.config/tmuxinator/djangox.yml
+# /home/soleus/.config/tmuxinator/django.yml
 
-name: djangox
+name: django
 root: ~/Documents/School/master/django
 
 windows:
