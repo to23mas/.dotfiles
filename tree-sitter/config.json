@@ -1,0 +1,59 @@
+{
+  "parser-directories": [
+    "/home/soleus/github",
+    "/home/soleus/src",
+    "/home/soleus/source",
+    "/home/soleus/projects",
+    "/home/soleus/dev",
+    "/home/soleus/git"
+  ],
+  "theme": {
+    "keyword": 56,
+    "punctuation.bracket": 239,
+    "tag": 18,
+    "type": 23,
+    "constant.builtin": {
+      "bold": true,
+      "color": 94
+    },
+    "constant": 94,
+    "constructor": 136,
+    "punctuation.delimiter": 239,
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "function": 26,
+    "string.special": 30,
+    "module": 136,
+    "embedded": null,
+    "variable.builtin": {
+      "bold": true
+    },
+    "property": 124,
+    "string": 28,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "number": {
+      "bold": true,
+      "color": 94
+    },
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "variable.parameter": {
+      "underline": true
+    },
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "function.builtin": {
+      "color": 26,
+      "bold": true
+    }
+  }
+}
