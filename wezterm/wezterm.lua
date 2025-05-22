@@ -8,7 +8,10 @@ config.window_padding = { left = 5, right = 0, top = 5, bottom = 0 }
 
 -- Font settings
 config.font = wezterm.font 'Iosevka NFM'
-config.font_size = 12.8
+config.font_size = 12.3
+config.warn_about_missing_glyphs=false
+
+config.audible_bell = "Disabled"
 
 config.keys = {
 	{
